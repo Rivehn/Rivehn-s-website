@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FE012E4E-0A49-874C-8779-986D2316B90D/main.js" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/B83D2094-CC4B-C94A-9F74-C5E45AF246AC/abn/main.css"/><style>
+<style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
 body, html {
   height: 100%;
@@ -20,24 +20,6 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-/* First image (Logo. Full height) */
-.bgimg-1 {
-  background-image: url('/w3images/parallax1.jpg');
-  min-height: 100%;
-}
-
-/* Second image (Portfolio) */
-.bgimg-2 {
-  background-image: url("/w3images/parallax2.jpg");
-  min-height: 400px;
-}
-
-/* Third image (Contact) */
-.bgimg-3 {
-  background-image: url("/w3images/parallax3.jpg");
-  min-height: 400px;
 }
 
 .w3-wide {letter-spacing: 10px;}
@@ -54,14 +36,12 @@ body, html {
 <body>
 
 <!-- Navbar (sit on top) -->
-<div class="w3-top">
+<div class="w3-top w3-black">
   <div class="w3-bar" id="myNavbar">
-    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
-      <i class="fa fa-bars"></i>
-    </a>
-    <a href="#home" class="w3-bar-item w3-button">HOME</a>
-    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="./index.html" class="w3-bar-item w3-button">HOME</a>
+    <a href="./aboutme.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="./blogs/index.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> PORTFOLIO</a> <!-- CHANGELATER -->
+    <a href="./contact.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
   <!--  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
        <i class="fa fa-search"></i> -->
     </a>
@@ -69,60 +49,22 @@ body, html {
 
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="./aboutme.html" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
     <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
-    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    <a href="./contact.html" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
     <a href="#" class="w3-bar-item w3-button">SEARCH</a>
   </div>
 </div>
 
 <!-- First Parallax Image with Logo Text -->
-<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
- <img src="images/Aatrox-by-NAM-League-of-Legends-Artwork-Wallpaper-lol.jpg" class="w3-round w3-image w3-opacity center" alt="O///O H-h-hentai..."></img>
+<div class="bgimg-1 w3-display-container " id="home">
+ <img src="images/dreamy.jpg" class="w3-round w3-image center w3-opacity-min" alt="O///O H-h-hentai..."></img>
   <div class="w3-display-middle" style="white-space:nowrap;">
     <span class="w3-center w3-padding-large w3-black w3-xxxlarge w3-wide w3-animate-opacity"><font size ="7">RIVEHN<span class="w3-hide-small"></span>
 
   </div>
 </div>
 
-<!-- Container (About Section) -->
-<p><font size="5"><center><a href="https://rivehn.me/blogs/index.html">Articles</a></p>
-<div class="w3-content w3-container w3-padding-64" id="about"><font size="5">
-  <h3 class="w3-center">ABOUT ME</h3>
-  <p class="w3-center"><em>Video games, Gameplay design, Art, Music, Sport, Film</em></p>
-  <p>Hi, I am a Graduate at the University of Southampton in Computer Science. I love games. I like all types of games but my most favourite are competitive games involving lots of strategy, otherwise I also enjoy puzzle games, logic games, rpgs and bullet hells.
-  Outside of video games, I aspire to be a game designer and developer. I wish to be a flexible developer that can work on small or large games to my freedom. I particularly enjoy studying gameplay and game design choices and intend
-  on critiquing various aspects of game design choices in this blog, hopefully leading to some discussion about the insights to these choices. </p>
-
-	<p>I thoroughly enjoy looking at art of all kinds, I think part of making art is to be appreciated so I aspire to always appreciate the art that someone else produces great or small. I do not often
-	watch films as I would like to because I feel the modern era of films has left a lot to be desired and that they have regressed slowly away from an artform. That being said there are always gems that I
-	hope to catch, I will be discussing my thoughts, ramblings and informal reviews on here too.</p>
-
-		<p>On a more personal scale, I grew up fairly sheltered and was scared to meet new people but I eventually grew out of my shell when I entered my adolescence, I'm still a bit of a scaredy cat, that hasn't changed ^^.
-		I think of myself as a bit of a tradionalist, always believing in what is practical, and what is the right thing to do. I take pride in my heritage and I think others should too. I also think with an egoistic and individualistic mindset because
-		we should be the ones to control our fate, not God, and no matter what influences your choices, we are still the ones who ultimately make the final call to our destiny. My hobby is studying philosophy and ancient history with my favourite
-		areas being all classic literature, ancient civilisations and many more. Many know my favoute animal are Rabbits but I also really like Dogs and even horses. Despite this I think I am very bad with animals. I was born with rabbit as my zodiac therefore I feel a deep connection to it
-		 so much so that I would even call it destiny that I was born with this sign. I even like to gaze at the moon =O.O=.</p>
-
-			<p>I am intending to use this for my game ideas mostly but also as an area to put all of writing, poetry, stories and essays or other interesting things I want to talk about.
-			Classical novels feel like they are much better written than modern ones, but maybe it's because of the intended audiences, modern writers must write in colloquial ways and attempt to immediately catch the reader on a hook which
-			disappoints me. I really like the silver tongue text that classical novels have, there is a bit of elegance in the way they were written which I adore. In regards to my game ideas, I have a whole universe I dream to bring to life, to create and share with everyone.
-			The name of this world is 'Crowlion', and I wish for it to grow into the gem that I as a kid all those years ago dream't it would grow to be. It's funny how the aspirations and desires of adults usually ends up being little dreams
-			of a growing child. That's all I am going to disclose for now about Crowlion. I plan on unveiling the machinations of the world through novels and games that I am working hard to come to life. I guess finally,
-			the last thing I would like to say is, for those that are reading this, I am  grateful that you were able to see a side of me I do not show to other's, because if you are reading this out of the curiousity of your heart and
-			not by the frivolent pleads of a boy lost in his world, it means I made my dream come true, a dream not of my older self, but a dream that was anchored into my heart by my younger self, for that is the only dream I have now, the happiness for that child all those years ago.</p>
-  <div class="w3-row">
-    <div class="w3-col m6 w3-center w3-padding-large">
-      <p><b><i class="fa fa-user w3-margin-right"></i>Rivehn</b></p><br>
-      <img src="images/yuzukichan.png" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333"></img>
-    </div>
-
-    <!-- Hide this text on small devices -->
-    <div class="w3-col m6 w3-hide-small w3-padding-large">
-      <p>I also watch alot of anime. Discussing anime is very fun for me and hopefully some day I could produce my own anime or manga, that would be very fun.
-	  The girl to the side is Yuzuki yukari, my favourite vocaloid.</p>
-    </div>
-  </div>
 <!--  <p class="w3-large w3-center w3-padding-16">Im really good at:</p>
   <p class="w3-wide"><i class="fa fa-camera"></i>Gaming</p>
   <div class="w3-light-grey">
@@ -222,75 +164,31 @@ body, html {
   </div>
 </div>
 
-<!-- Third Parallax Image with Portfolio Text -->
-<div class="bgimg-3 w3-display-container w3-opacity-min">
-  <div class="w3-display-middle">
-     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
-  </div>
-</div>
-
-<!-- Container (Contact Section) -->
-<div class="w3-content w3-container w3-padding-64" id="contact">
-  <h3 class="w3-center">My details, contact me by email and I will do my best to reply</h3>
-  <p class="w3-center"><em>I'm happy to hear your feedback!</em></p>
-
-  <div class="w3-row w3-padding-32 w3-section">
-    <div class="w3-col m4 w3-container">
-      <img src="images/sleepingreisen.jpg" class="w3-image w3-round" style="width:100%"></img>
-    </div>
-    <div class="w3-col m8 w3-panel">
-      <div class="w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> University of Southampton, Southampton, UK<br>
-        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: no<br>
-        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Personal Email: pjdeng1999@gmail.com<br>
-		<i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> University Email: pd2g17@soton.ac.uk<br>
-      </div>
-      <!-- <p>Say hi to me, or leave me a note through this:</p>
-      <form action="/action_page.php" target="_blank">
-        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-          <div class="w3-half">
-            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-          </div>
-          <div class="w3-half">
-            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
-          </div>
-        </div>
-        <input class="w3-input w3-border" type="text" placeholder="Message E.G. I love you" required name="Message">
-        <button class="w3-button w3-black w3-right w3-section" type="submit">
-          <i class="fa fa-paper-plane"></i> SEND MESSAGE
-        </button>
-      </form> -->
-    </div>
-  </div>
-</div>
 
 <!-- Footer -->
-<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
-  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+<footer class="w3-center w3-white w3-padding-64 w3-opacity-min w3-hover-opacity-off">
   <div class="w3-xlarge w3-section">
-    <!-- <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i> -->
- <!--   <i class="fa fa-linkedin w3-hover-opacity"></i> -->
+    <a href="#instagram"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+      <a href="#twitter"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+  <!--  <i class="fa fa-linkedin w3-hover-opacity"></i> -->
   </div>
-  <p>I stole <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
 </footer>
 
 <script>
-// Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
-}
+// Modal Image Gallery - some script idk
+// function onClick(element) {
+//   document.getElementById("img01").src = element.src;
+//   document.getElementById("modal01").style.display = "block";
+//   var captionText = document.getElementById("caption");
+//   captionText.innerHTML = element.alt;
+// }
 
 // Change style of navbar on scroll
 window.onscroll = function() {myFunction()};
 function myFunction() {
     var navbar = document.getElementById("myNavbar");
     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-black";
     } else {
         navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
     }
@@ -306,6 +204,5 @@ function toggleFunction() {
     }
 }
 </script>
-
 </body>
 </html>
