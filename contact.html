@@ -9,8 +9,9 @@
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
 body, html {
-
   background:#FFA7B4;
+  background-attachment: fixed;
+  background-image:url(images/starrybg.jpg);
 }
   .container{
     width: 1280px;
@@ -33,7 +34,7 @@ body, html {
       </a>
       <a href="./index.html" class="w3-bar-item w3-button">HOME</a>
       <a href="./aboutme.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
-      <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> PORTFOLIO</a>
+      <a href="./portfolio.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> PORTFOLIO</a>
       <a href="./contact.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
     <!--  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
          <i class="fa fa-search"></i> -->
@@ -43,14 +44,14 @@ body, html {
     <!-- Navbar on small screens -->
     <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
       <a href="./aboutme.html" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
-      <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+      <a href="./portfolio.html" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
       <a href="./contact.html" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
       <a href="#" class="w3-bar-item w3-button">SEARCH</a>
     </div>
   </div>
 
   <!-- Container (Contact Section) -->
-  <div class="container">
+  <div class="container w3-animate-opacity">
   <div class="w3-content w3-container w3-padding-64" id="contact">
     <h2 class="w3-center">Contact me by email and I will do my best to reply, Check out my social media at the bottom.</h2>
     <p class="w3-center"><em>If you have any topics to discuss feel free to drop an email or message me!</em></p>

@@ -1,0 +1,11 @@
+Pink:#e07b9c
+Dark Purple:#2a2651
+Black: #0c0d18
+Thin Purple:#96568d
+Thin Indigo:#6c75c1
+Indigo-Violet:#574fa0
+Beige-White:#fadfc0
+Violet:#6a417a
+Light Indigo#6c70ab
+Silver-Indigo:#9aa7d0
+Gold:#cc8e07

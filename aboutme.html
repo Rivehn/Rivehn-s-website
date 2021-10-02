@@ -10,6 +10,8 @@
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
 body {
   background:#FFA7B4;
+  background-attachment: fixed;
+  background-image:url(images/fallingstar.jpg);
   }
 .container{
   width: 1280px;
@@ -18,12 +20,14 @@ body {
   border:1px solid #ccc;
   background:#fff;
   opacity: ;
+  z-index: 2;
 }
 .center-cropped {
   height: 0px;
   width: 100%;
   background-position: center center;
   background-repeat: no-repeat;
+  z-index: 1;
 }
 .w3-hover-opacity {cursor: pointer;}
 </style>
@@ -34,7 +38,7 @@ body {
     <div class="w3-bar" id="myNavbar">
       <a href="./index.html" class="w3-bar-item w3-button">HOME</a>
       <a href="./aboutme.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
-      <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> PORTFOLIO</a>
+      <a href="./portfolio.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> PORTFOLIO</a>
       <a href="./contact.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
     <!--  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
          <i class="fa fa-search"></i> -->
@@ -44,7 +48,7 @@ body {
     <!-- Navbar on small screens -->
     <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
       <a href="./aboutme.html" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
-      <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+      <a href="./portfolio.html" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
       <a href="./contact.html" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
       <a href="#" class="w3-bar-item w3-button">SEARCH</a>
     </div>
@@ -57,6 +61,7 @@ body {
       </div>
     </div>
 -->
+
 <div class="container w3-animate-opacity">
 <p><font size="5"><center><a href="https://rivehn.me/blogs/index.html"><title>About Me</title></a></p>
   <div class="w3-content w3-container w3-padding-64" id="about"><font size="5">
@@ -66,7 +71,7 @@ body {
     <p>Hi, my name is Peter Deng, I am a Computer Science Graduate from the University of Southampton.</p>
   	<p>I have a passion for games. I am competitive and I like to look for innovation and novelty in everyday life. Not only do I love gaming and sports, I love technology and what we can do to make life interesting each day. I am a designer and developer, and this website will be a gallery of my portfolio. Not only would it be the home of my works, but I also intend to keep my thoughts, opinions, and essays here for others to see. If you find this interesting, navigate the site and have a read.</p>
     <h4 class="w3-center">Gaming</h4>
-  		<p>Gaming has a history, maybe reality is all just a game, some people might like to see it that way. I enjoy the spirit of gaming, there is an artform within that on the surface appears shallow and mundane, but actually holds a complex and beautiful core with variation and eloquence that nobody sees. Gaming really does not mean much if it does not include competition, a challenge, or a goal. Because of this, gaming really reflects humans, and their needs and desires for meaning and purpose. This nuanced interaction, between players, actions, and choices is what makes gaming such a great medium, and a relevant and exciting art.</p>
+  		<p>Gaming has a history rooted in humanity, maybe for some reality is all just a game, some people might choose to see it that way. I enjoy the spirit of gaming, there is an artform within that on the surface appears shallow and mundane, but actually holds a complex and beautiful core with variation and eloquence that nobody sees. Gaming really does not mean much if it does not include competition, a challenge, or a goal. Because of this, gaming really reflects humans, and their needs and desires for meaning and purpose. This nuanced interaction, between players, actions, and choices is what makes gaming such a great medium, and a relevant and exciting art.</p>
   		<p>I started playing games like card games and board games initially, my first experience with video games come from Westwood Studios (now EA) Red Alert 2, which also introduced strategy games and from there on, I played puzzle games and war games, then RPG’s and then FPS games in the form of Call of Duty and Medal of Honour, before jumping to Skyrim and then PC games like Dota 2, LoL and Rhythm games such as Osu!.</p>
       <p>I particularly enjoy studying gameplay and game design choices. My goal of my career is to become a games developer, something that will inspire others like how games inspired me when I was younger.</p>
       <p>I thoroughly enjoy looking at art of all kinds, I think part of making art is to be appreciated so I aspire to always appreciate the art that someone else produces great or small.</p>
